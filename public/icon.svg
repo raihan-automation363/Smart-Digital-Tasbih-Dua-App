@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B5E46" />
+      <stop offset="100%" stop-color="#063B2C" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2D77E" />
+      <stop offset="100%" stop-color="#C89B3C" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <g transform="translate(256,256)">
+    <!-- 8-pointed Islamic star (Rub el Hizb) -->
+    <rect x="-112" y="-112" width="224" height="224" rx="14" fill="none" stroke="url(#gold)" stroke-width="14" />
+    <rect x="-112" y="-112" width="224" height="224" rx="14" fill="none" stroke="url(#gold)" stroke-width="14" transform="rotate(45)" />
+    <circle cx="0" cy="0" r="82" fill="#074433" stroke="url(#gold)" stroke-width="8" />
+    <!-- Crescent + subtle light bead -->
+    <path d="M 12 -46 A 46 46 0 1 0 46 28 A 36 36 0 1 1 12 -46 Z" fill="url(#gold)" />
+    <circle cx="26" cy="-18" r="8" fill="#F9E7A8" />
+  </g>
+</svg>
